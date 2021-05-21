@@ -1,3 +1,8 @@
+#include <SoftwareSerial.h>
+#define inputPin 7
+int state = 0;
+
+
 void setup() {
   pinMode(inputPin, OUTPUT);
   digitalWrite(inputPin, LOW);
